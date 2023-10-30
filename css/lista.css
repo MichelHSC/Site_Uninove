@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+}
+h1 {
+    color: rgba(255, 255, 0, 0.938);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 8px 5px 5px gray;
+}
+table{
+    text-align: center;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.678);
+    width: 100%;
+    margin: auto;
+    font-size: 1.6rem;
+
+    
+}
+th{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+
+}
+td{
+    padding: 2px;
+}
+table, th, td{
+    border: solid black 1px;
+    border-collapse: collapse;
+    padding: 5px 2px ;
+}
+tr:hover{
+    background-color: rgba(255, 255, 0, 0.589);
+    font-weight: bold;
+}
+div{
+    
+    border: solid #c0c0c0 1px;
+    box-shadow: 5px 10px 15px 0px black;
+    /* padding: 20px; */
+    background-color: rgba(255, 255, 255, 0.788);
+    border-radius: 10px;
+}
