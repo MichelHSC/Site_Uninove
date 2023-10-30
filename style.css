@@ -45,7 +45,7 @@ main {
   font-style: helvetica;
   font-size: 64px;
   text-align: center;
-  background-image: url('/img/uninove.jpg');
+  background-image: url('img/uninove.jpg');
   background-size: cover;
   border-radius: 5px;
 }
