@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Consulta</title>
-    <link rel="stylesheet" href="/css/consulta.css">
+    <title>Exclusão</title>
+    <link rel="stylesheet" href="excluir.css">
 </head>
+
 <body>
-    <form action="concur.jsp">
+    <form action="exclu.jsp">
         <p>
             <label for="cod">Código :</label>
             <input id="cod" type="text" name="codigo" size="6" maxlength="6" placeholder="Código..." required>
@@ -24,14 +26,9 @@
                 <option value="Noturno">Noite</option>
         </p>
         </select>
-        <div class="pesquisa">
-            <input type="submit" value="Consultar">
-        </div>
 
-
-    </form>
-
-
-
+        <div class="excluir">
+            <input type="submit" value="Excluir">
 </body>
+
 </html>

@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exclusão</title>
-    <link rel="stylesheet" href="/css/excluir.css">
+    <title>Cadastro de curso</title>
+    <link rel="stylesheet" href="forms.css">
+    
 </head>
 
 <body>
-    <form action="exclu.jsp">
+
+    <form action="cadcur.jsp">
         <p>
             <label for="cod">Código :</label>
             <input id="cod" type="text" name="codigo" size="6" maxlength="6" placeholder="Código..." required>
@@ -17,6 +19,10 @@
         <p>
             <label for="curso">Nome do Curso :</label>
             <input id="curso" type="text" name="curso" size="50" maxlength="50" placeholder="Nome do Curso..." required>
+        </p>
+        <p>
+            <label for="dur">Duração do Curso :</label>
+            <input id="Duracao" type="text" name="duracao" size="20" maxlength="20" placeholder="Duração do Curso..."required>
         </p>
         <p>
             <label for="per">Periodo do Curso :</label>
@@ -27,8 +33,14 @@
         </p>
         </select>
 
-        <div class="excluir">
-            <input type="submit" value="Excluir">
+        <div class="salvar">
+            <input type="submit" value="Salvar">
+        </div>
+    </form>
+
+
+
+
 </body>
 
 </html>
